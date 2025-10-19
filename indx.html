@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box">
+        <h2>Spam or Not a Spam</h2>
+        <form id="prediction-form" name="prediction-form">
+            <div class="user-box">
+                <input type="text" id="email" name="email"  required>
+                <label for="email">Message:</label>
+            </div>
+            <div class="prediction-container">
+               <a href="#" id="predict-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Check
+               </a>
+             <div id="prediction-result">
+                <!-- Predicted result will be displayed here -->
+             </div>
+            </div>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
